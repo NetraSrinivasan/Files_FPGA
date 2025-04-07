@@ -1,0 +1,31 @@
+# Ignore Vivado-generated folders
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.str/
+*.xpr.user/
+.Xil/
+*.jou
+*.log
+*.wdb
+*.pb
+*.str
+*.vcd
+*.backup.jou
+*.backup.log
+
+# Do not ignore your sources, constraints, or tcl script!
+!src/
+!constraints/
+!testbench/
+!project/create_project.tcl
+
+# Ignore Vivado GUI session state
+*.webtalk
+*.html
+
+# Ignore system files
+.DS_Store
+Thumbs.db
